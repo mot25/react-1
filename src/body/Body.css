@@ -1,0 +1,43 @@
+.body {
+  background: #fff;
+}
+
+.body > .container {
+  background: rgba(177, 177, 177, 0.712);
+}
+
+h1 {
+  padding: 20px;
+}
+
+.item {
+  width: 170px;
+  height: 70px;
+  background: rgb(156, 150, 150);
+  border: 1px solid rgb(17, 158, 80);
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  align-items: center;
+}
+
+.item > div {
+  margin: 10px;
+}
+
+.bodyItems {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+.calculetFrom {
+    height: 300px;
+    border: 1px solid rgb(32 114 16);
+    text-align: center;
+}
+
+.Calculet {
+  padding: 0 25px;
+}

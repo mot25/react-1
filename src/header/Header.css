@@ -1,0 +1,21 @@
+.list {
+  display: flex;
+  background: rgb(32, 114, 16);
+  align-items: center;
+  color: #fff;
+  padding: 15px;
+  font-size: 15px;
+}
+.list > div {
+  margin-right: 30px;
+}
+header {
+  background: rgb(13, 105, 59);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: #fff;
+  font-size: 30px;
+}

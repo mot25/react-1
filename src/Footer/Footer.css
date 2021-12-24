@@ -1,0 +1,21 @@
+.footer {
+    background: #000;
+    color: #fff;
+}
+
+.footer__inner {
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    margin: 10px 0;
+}
+
+.footer__inner-item {
+    display: flex;
+    flex-direction: column;
+}
