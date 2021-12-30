@@ -6,14 +6,12 @@
   padding: 15px;
   font-size: 15px;
 }
-.list > div {
+.list > a {
   margin-right: 30px;
 }
 header {
   background: rgb(13, 105, 59);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ 
 }
 h1 {
   color: #fff;

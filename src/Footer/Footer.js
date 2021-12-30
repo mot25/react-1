@@ -5,7 +5,7 @@ import "./Footer.css";
 class Footer extends React.Component {
   render() {
     return (
-      <div className="footer">
+      <footer className="footer">
         <div className="container">
           <div className="footer__inner">
             <div className="footer__inner-item">
@@ -23,7 +23,7 @@ class Footer extends React.Component {
             </div>
           </div>
         </div>
-      </div>
+      </footer>
     );
   }
 }

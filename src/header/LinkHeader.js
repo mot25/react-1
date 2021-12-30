@@ -1,4 +1,5 @@
 import React from "react";
+import {Routes, Route, Link} from 'react-router-dom'
 
 import "./Header.css";
 
@@ -7,9 +8,9 @@ class LinkHeader extends React.Component {
     return (
       <div>
           <div className="list">
-              <div>main</div>
-              <div>exchange point</div>
-              <div>contact</div>
+              <Link to='/' >main</Link>
+              {/* <Link to={} >exchange point</Link> */}
+              <Link to='/about' >contact</Link>
           </div>
       </div>
     );
